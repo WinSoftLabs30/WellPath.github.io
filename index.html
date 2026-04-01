@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinSoft Labs — Premium Flutter App Templates</title>
+    <meta name="description" content="Production-ready Flutter source code templates for developers and agencies. Clean architecture, multi-role, Supabase-powered.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-hero { background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%); }
+        .feature-card:hover { transform: translateY(-2px); transition: transform 0.2s; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200 py-4 sticky top-0 z-10">
+        <div class="max-w-5xl mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold text-sm">W</div>
+                <span class="text-xl font-bold text-gray-900">WinSoft Labs</span>
+            </div>
+            <nav class="flex items-center gap-6">
+                <a href="#products" class="text-gray-600 hover:text-indigo-600 font-medium text-sm">Products</a>
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 font-medium text-sm">About</a>
+                <a href="mailto:winsoftlabs@gmail.com" class="bg-indigo-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-indigo-700 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="gradient-hero text-white py-20">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <span class="inline-block bg-white/20 text-white text-xs font-semibold px-3 py-1 rounded-full mb-6 uppercase tracking-wider">Flutter Source Code Templates</span>
+            <h1 class="text-5xl font-extrabold mb-6 leading-tight">Save months of development.<br>Ship your app faster.</h1>
+            <p class="text-xl text-indigo-100 max-w-2xl mx-auto mb-10">Production-ready Flutter templates with clean architecture, real Supabase backends, and multi-role access systems. Built for developers and agencies who need to deliver.</p>
+            <a href="#products" class="inline-block bg-white text-indigo-700 font-bold px-8 py-3 rounded-xl hover:bg-indigo-50 transition shadow-lg">Browse Templates</a>
+        </div>
+    </section>
+
+    <!-- Trust bar -->
+    <section class="bg-white border-b border-gray-100 py-6">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex flex-wrap justify-center gap-8 text-sm text-gray-500 font-medium">
+                <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                    Clean Architecture
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                    Flutter 3.x / Dart 3
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                    Supabase Backend
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                    Riverpod 2.x State Management
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                    Full Source Code Included
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="py-20">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-14">
+                <h2 class="text-3xl font-extrabold mb-3">Our Templates</h2>
+                <p class="text-gray-500 text-lg">Each template ships as a complete Flutter project. Plug in your Supabase credentials and go.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <!-- WellPath -->
+                <div class="feature-card bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100">
+                    <div class="h-52 bg-gradient-to-br from-emerald-400 to-teal-600 flex flex-col items-center justify-center p-6 text-white">
+                        <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-3">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        </div>
+                        <span class="text-lg font-bold">WellPath</span>
+                        <span class="text-emerald-100 text-sm">Wellness Practice Management</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-lg font-bold">WellPath Management Template</h3>
+                            <span class="bg-emerald-100 text-emerald-800 text-sm font-bold px-3 py-1 rounded-full">$79</span>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-4">A complete practice management app for wellness professionals — yoga studios, personal trainers, nutritionists, coaches, and 10 other job types. Everything is config-driven via JSON.</p>
+
+                        <div class="space-y-2 mb-5">
+                            <div class="flex items-start gap-2 text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                                4 user roles: Owner, Partner, Staff, Client — each with its own shell
+                            </div>
+                            <div class="flex items-start gap-2 text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                                Activity logging, finance tracking, messaging, scheduling, catalog, reviews
+                            </div>
+                            <div class="flex items-start gap-2 text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                                3-level permission system with owner control panel
+                            </div>
+                            <div class="flex items-start gap-2 text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                                Supabase auth, real-time data, full SQL schema included
+                            </div>
+                            <div class="flex items-start gap-2 text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                                Custom HSB colour picker, dark mode, live branding controls
+                            </div>
+                            <div class="flex items-start gap-2 text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-emerald-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+                                187 automated tests — zero analyzer warnings
+                            </div>
+                        </div>
+
+                        <div class="bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 mb-5">
+                            <p class="text-amber-700 text-xs font-medium">🚀 Launching April 2026 — join the waitlist to be notified</p>
+                        </div>
+
+                        <a href="mailto:winsoftlabs@gmail.com?subject=WellPath%20Waitlist" class="block w-full bg-indigo-600 text-white text-center font-bold py-2.5 rounded-xl hover:bg-indigo-700 transition">
+                            Join Waitlist
+                        </a>
+                    </div>
+                </div>
+
+                <!-- More coming soon card -->
+                <div class="bg-white rounded-2xl border-2 border-dashed border-gray-200 flex flex-col items-center justify-center p-10 text-center">
+                    <div class="w-14 h-14 bg-gray-100 rounded-2xl flex items-center justify-center mb-4">
+                        <svg class="w-7 h-7 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-700 mb-2">More templates coming</h3>
+                    <p class="text-gray-500 text-sm mb-5">We're building templates for property management, food delivery, tutoring platforms, and more.</p>
+                    <a href="mailto:winsoftlabs@gmail.com?subject=Template%20Request" class="text-indigo-600 text-sm font-medium hover:underline">Request a category →</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="bg-white py-20 border-t border-gray-100">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-14">
+                <h2 class="text-3xl font-extrabold mb-3">How it works</h2>
+                <p class="text-gray-500">From purchase to running app in minutes.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mx-auto mb-4 text-indigo-600 font-bold text-lg">1</div>
+                    <h4 class="font-bold mb-2">Purchase & download</h4>
+                    <p class="text-gray-500 text-sm">Get the full Flutter source code as a zip. No subscriptions. One-time payment.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mx-auto mb-4 text-indigo-600 font-bold text-lg">2</div>
+                    <h4 class="font-bold mb-2">Configure</h4>
+                    <p class="text-gray-500 text-sm">Add your Supabase credentials and brand details to a single config file. No deep code changes needed.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mx-auto mb-4 text-indigo-600 font-bold text-lg">3</div>
+                    <h4 class="font-bold mb-2">Build & ship</h4>
+                    <p class="text-gray-500 text-sm">Run <code class="bg-gray-100 px-1 rounded text-xs">flutter build</code> and publish to the App Store or Google Play under your own brand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-20">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="bg-indigo-50 rounded-2xl p-10">
+                <h2 class="text-2xl font-extrabold mb-4">About WinSoft Labs</h2>
+                <p class="text-gray-700 mb-4">WinSoft Labs creates production-quality Flutter source code templates for independent developers, freelancers, and agencies. Our templates are built with real-world architecture — not tutorial-level boilerplate — so you can ship to clients or the app stores with confidence.</p>
+                <p class="text-gray-700 mb-6">Every template ships with a complete Supabase schema, automated tests, a buyer setup guide, and ongoing support via email.</p>
+                <a href="mailto:winsoftlabs@gmail.com" class="inline-block bg-indigo-600 text-white font-bold px-6 py-2.5 rounded-xl hover:bg-indigo-700 transition">Get in touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-indigo-500 flex items-center justify-center text-white font-bold text-xs">W</div>
+                    <span class="font-bold">WinSoft Labs</span>
+                </div>
+                <div class="flex gap-6 text-sm text-gray-400">
+                    <a href="mailto:winsoftlabs@gmail.com" class="hover:text-white transition">winsoftlabs@gmail.com</a>
+                    <a href="#products" class="hover:text-white transition">Products</a>
+                    <a href="#about" class="hover:text-white transition">About</a>
+                </div>
+                <p class="text-gray-500 text-sm">&copy; 2026 WinSoft Labs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
